@@ -28,7 +28,8 @@ It also helped me understand core concepts in transfer learning, ensemble voting
 **Source:** [Kaggle Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 **Structure:**
-'''chest_xray/
+```
+chest_xray/
 ├── train/
 │ ├── NORMAL/
 │ └── PNEUMONIA/
@@ -37,7 +38,8 @@ It also helped me understand core concepts in transfer learning, ensemble voting
 │ └── PNEUMONIA/
 └── test/
 ├── NORMAL/
-└── PNEUMONIA/'''
+└── PNEUMONIA/
+```
 
 
 **Dataset Details:**
@@ -140,7 +142,7 @@ Mean ROC-AUC: **0.951 ± 0.007**
 ---
 
 ##  Repository Structure
-'''
+```
 ├── weights/
 │ ├── DenseNet121_saved.keras
 │ ├── MobileNetV2_saved.keras
@@ -149,7 +151,8 @@ Mean ROC-AUC: **0.951 ± 0.007**
 │ └── Pneumonia_Colab_Demo.ipynb
 ├── requirements.txt
 ├── Dockerfile
-└── README.md'''
+└── README.md
+```
 ##  How to Run
 
 ### 🔹 Run in Colab (Recommended)  
