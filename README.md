@@ -1,7 +1,7 @@
 #  Pneumonia Detection using Ensemble Deep Learning  
 **DenseNet121 • ResNet50 • MobileNetV2 | Transfer Learning + Segmentation + Explainability**
 
-[![Open In Colab]()  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1y2OqGRk8fk3HS3gVXBni3IIkLg-hJwk7?usp=sharing)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)]()  
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()  
@@ -28,7 +28,7 @@ It also helped me understand core concepts in transfer learning, ensemble voting
 **Source:** [Kaggle Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 **Structure:**
-chest_xray/
+'''chest_xray/
 ├── train/
 │ ├── NORMAL/
 │ └── PNEUMONIA/
@@ -37,7 +37,7 @@ chest_xray/
 │ └── PNEUMONIA/
 └── test/
 ├── NORMAL/
-└── PNEUMONIA/
+└── PNEUMONIA/'''
 
 
 **Dataset Details:**
@@ -140,6 +140,7 @@ Mean ROC-AUC: **0.951 ± 0.007**
 ---
 
 ##  Repository Structure
+'''
 ├── weights/
 │ ├── DenseNet121_saved.keras
 │ ├── MobileNetV2_saved.keras
@@ -148,7 +149,7 @@ Mean ROC-AUC: **0.951 ± 0.007**
 │ └── Pneumonia_Colab_Demo.ipynb
 ├── requirements.txt
 ├── Dockerfile
-└── README.md
+└── README.md'''
 ##  How to Run
 
 ### 🔹 Run in Colab (Recommended)  
