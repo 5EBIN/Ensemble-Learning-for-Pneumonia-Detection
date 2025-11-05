@@ -1,7 +1,7 @@
 #  Pneumonia Detection using Ensemble Deep Learning  
 **DenseNet121 • ResNet50 • MobileNetV2 | Transfer Learning + Segmentation + Explainability**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1y2OqGRk8fk3HS3gVXBni3IIkLg-hJwk7?usp=sharing)  
+[![Open In Colab]()  
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)]()  
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)]()  
